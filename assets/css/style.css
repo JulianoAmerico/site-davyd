@@ -46,3 +46,11 @@
     /* background: url(../img/logo.png) left center no-repeat; */
     border: 0;
 }
+
+/* Home */
+.inner-bg { padding: 210px 0; }
+.home {background-color: #292C35;}
+.home .text { color: #fff; }
+.home .text h1 { margin-top: 25px; color: #fff; }
+.home .description { margin: 30px 0 10px 0; }
+.home .description p { opacity: 0.8; }
