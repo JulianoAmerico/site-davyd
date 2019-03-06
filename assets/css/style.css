@@ -136,10 +136,8 @@ img { max-width: 100%; }
     -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
     -o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 }
-
 .section-1-box h3 { margin-top: 0; padding: 0 0 10px 0; }
-
-.orcamento-container{ margin-top: 30px; }
+.orcamento-container{ margin-top: 30px; margin-bottom:30px;}
 
 /***** Quem Somos Section 2 *****/
 
