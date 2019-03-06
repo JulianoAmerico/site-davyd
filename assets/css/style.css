@@ -90,6 +90,11 @@ img { max-width: 100%; }
     border: 0;
 }
 
+.logotipo h1{
+    color: white;
+    font-style: normal;
+}
+
 /* Home */
 .inner-bg { padding: 210px 0; }
 .home .carousel-text h1 { margin-top: 25px; color: #fff; font-style: italic;}
