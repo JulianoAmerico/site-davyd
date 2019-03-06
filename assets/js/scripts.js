@@ -29,8 +29,8 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.home').backstretch("assets/img/backgrounds/1.jpg");
-    $('.section-4-container').backstretch("assets/img/backgrounds/1.jpg");
+    // $('.home').backstretch("assets/img/backgrounds/1.jpg");
+    // $('.section-4-container').backstretch("assets/img/backgrounds/1.jpg");
     
     /*
         Wow
