@@ -2,7 +2,7 @@
 function scroll_to(clicked_link, nav_height) {
 	var element_class = clicked_link.attr('href').replace('#', '.');
 	var scroll_to = 0;
-	if(element_class != '.top-content') {
+	if(element_class != '.home') {
 		element_class += '-container';
 		scroll_to = $(element_class).offset().top - nav_height;
 	}
@@ -22,14 +22,14 @@ jQuery(document).ready(function() {
 		scroll_to($(this), $('nav').outerHeight());
 	});
 	// toggle "navbar-no-bg" class
-	$('.top-content .text').waypoint(function() {
+	$('.home .text').waypoint(function() {
 		$('nav').toggleClass('navbar-no-bg');
 	});
 	
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("assets/img/backgrounds/1.jpg");
+    $('.home').backstretch("assets/img/backgrounds/1.jpg");
     $('.section-4-container').backstretch("assets/img/backgrounds/1.jpg");
     
     /*
