@@ -140,3 +140,9 @@ img { max-width: 100%; }
 .section-1-box h3 { margin-top: 0; padding: 0 0 10px 0; }
 
 .orcamento-container{ margin-top: 30px; }
+
+/***** Quem Somos Section 2 *****/
+
+.section-2-box { margin-top: 30px; text-align: left; }
+.section-2-box h3 { margin-top: 0; }
+.section-2-box-text .medium-paragraph { margin-top: 20px; margin-bottom: 20px; }
