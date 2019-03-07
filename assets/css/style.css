@@ -155,3 +155,13 @@ img { max-width: 100%; }
 .section-3-box h3 { margin-top: 0; padding: 0 0 10px 0; }
 .section-3-box-text .medium-paragraph { margin-top: 20px; margin-bottom: 20px; }
 .section-3-figcaption { text-align: center; padding-bottom: 40px;}
+
+/* Rodapé */
+.footer-container{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 20px;
+}
