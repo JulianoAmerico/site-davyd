@@ -147,3 +147,9 @@ img { max-width: 100%; }
 .section-2-figcaption { text-align: center; padding-bottom: 40px;}
 .ceo-img{text-align:center;}
 .ceo-img img {height: 300px; border-radius: 5px;}
+
+/* Contato Section 3 */
+.section-3-box { padding-top: 30px; text-align: left; }
+.section-3-box h3 { margin-top: 0; padding: 0 0 10px 0; }
+.section-3-box-text .medium-paragraph { margin-top: 20px; margin-bottom: 20px; }
+.section-3-figcaption { text-align: center; padding-bottom: 40px;}
