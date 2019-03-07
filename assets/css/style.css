@@ -139,6 +139,7 @@ img { max-width: 100%; }
 .section-1-box h3 { margin-top: 0; padding: 0 0 10px 0; }
 .orcamento-container{ margin-top: 30px; margin-bottom:30px;}
 .btn{border-radius: 0; border:0; color:white; background-color: #000; padding:10px;}
+.btn:hover{background-color: #2a2c2b;}
 
 /***** Quem Somos Section 2 *****/
 
