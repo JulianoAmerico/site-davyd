@@ -1,8 +1,8 @@
-/* * {
+* {
     box-sizing: border-box;
     margin:0;
     padding: 0;
-} */
+}
 
 body { font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 400; color: #888; line-height: 30px; text-align: center; }
 
@@ -138,6 +138,8 @@ img { max-width: 100%; }
 }
 .section-1-box h3 { margin-top: 0; padding: 0 0 10px 0; }
 .orcamento-container{ margin-top: 30px; margin-bottom:30px;}
+.btn{border-radius: 0; border:0; color:white; background-color: #000; padding:10px;}
+.btn:hover{background-color: #2a2c2b;}
 
 /***** Quem Somos Section 2 *****/
 
@@ -147,3 +149,19 @@ img { max-width: 100%; }
 .section-2-figcaption { text-align: center; padding-bottom: 40px;}
 .ceo-img{text-align:center;}
 .ceo-img img {height: 300px; border-radius: 5px;}
+
+/* Contato Section 3 */
+.section-3-box { padding-top: 30px; text-align: left; }
+.section-3-box h3 { margin-top: 0; padding: 0 0 10px 0; }
+.section-3-box-text .medium-paragraph { margin-top: 20px; margin-bottom: 20px; }
+.section-3-figcaption { text-align: center; padding-bottom: 40px;}
+
+/* Rodapé */
+.footer-container{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 20px;
+}

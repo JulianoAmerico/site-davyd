@@ -205,7 +205,7 @@
 				
 				<!-- Solicite orçamento -->
 				<div class="orcamento-container">
-					<input type="button" class="btn btn-primary"value="Solicite Orçamento"/>
+					<input type="button" class="btn" value="Solicite Orçamento"/>
 				</div>
 			</div>
 		</article>
@@ -233,7 +233,7 @@
 								<img src="assets/img/ceo.jpg"/>
 							</figure>
 
-							<div>
+							<div class="col-md-6 section-2-box wow fadeInLeft">
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.
 								</p>
@@ -245,32 +245,66 @@
 		</article>
 
 		<!-- Artigo Contato -->
-		<article class="contato-container">
-			<header><h1>CONTATO</h1></header>
+		<article class="contato-container section-3-container ">
+			<div class="container">
+				<div class="row">
+	                <div class="col section-3 section-description wow fadeIn">
+	                	<header><h2>CONTATO</h2></header>
+	                </div>
+	            </div>
+				<div class="row">
+					<figure class="col-md-4 section-3-box wow fadeInLeft">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.2163006548844!2d-47.18845868537872!3d-22.64572263429995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89242bd236a79%3A0x58cc59d3d01e3cc6!2sAv.+da+Saudade%2C+Cosm%C3%B3polis+-+SP%2C+13150-000!5e0!3m2!1spt-BR!2sbr!4v1552002992652" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<figcaption>
+							<h6><strong>Informações de contato:</strong></h6>
+							<label>Telefone: (19) 99999-9999</label><br>
+							<label>E-mail: mail@mail.com</label><br>
+							<label>Endereço: Av. da Saudade, 100, Bela Vista</label><br>
+							<label>Cosmópolis, SP, Brasil</label>
+						</figcaption>
+					</figure>
 
-			<div>
-				<figure>
-					<img src=""/>
-					<figcaption>explanatory caption</figcaption>
-				</figure>
+					<div class="col-md-8 section-3-box wow fadeInLeft">
+						<p>Para tirar dúvidas entre em contato (19) 99999-9999 ou envie um e-mail abaixo:</p>
 
-				<div>
-					<label>Phone:(19)99999-9999</label>
-					<label>E-mail: mail@mail.com</label>
-					<form>
-						<input type="text" placeholder="Nome*" required/>
-						<input type="email" placeholder="E-mail*" required/>
-						<input type="text" placeholder="Assunto*" required/>
-						<textarea placeholder="Mensagem*" required></textarea>
-						<input type="submit" value="Enviar"/>
-					</form>
+						<form>
+							<div class="form-row">
+								<div class="col-md-6">
+									<input type="text" class="form-control" placeholder="Nome*" required/>
+								</div>
+								<div class="col-md-6">
+									<input type="email" class="form-control" placeholder="E-mail*" required/>
+								</div>
+							</div>
+							<br>
+							<div class="form-row">
+								<div class="col">
+									<input type="text"class="form-control" placeholder="Assunto*" required/>
+								</div>
+							</div>
+							<br>
+							<div class="form-row">
+								<div class="col">		
+									<textarea class="form-control" placeholder="Mensagem*" rows="3" required></textarea>
+								</div>
+							</div>
+							<br>	
+							<input type="submit" class="btn" value="Enviar"/>
+						</form>
+					</div>
 				</div>
 			</div>
 		</article>
 	</section>
 
-	<footer>
-		<div>Powered by Juliano Américo</div>
+	<footer class="footer-container">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					&copy; Powered by Juliano Américo
+				</div>
+			</div>
+		</div>
 	</footer>
 
 	<!-- Javascript -->
