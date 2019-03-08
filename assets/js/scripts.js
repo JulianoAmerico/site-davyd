@@ -22,7 +22,7 @@ jQuery(document).ready(function() {
 		scroll_to($(this), $('nav').outerHeight());
 	});
 	// toggle "navbar-no-bg" class
-	$('.home .text').waypoint(function() {
+	$('.home .carousel-text').waypoint(function() {
 		$('nav').toggleClass('navbar-no-bg');
 	});
 	
