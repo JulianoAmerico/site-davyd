@@ -27,14 +27,7 @@ jQuery(document).ready(function() {
 	// toggle "navbar-no-bg" class
 	$('.home .carousel-text').waypoint(function() {
 		$('nav').toggleClass('navbar-no-bg');
-	});
-	
-    /*
-        Background slideshow
-    */
-    // $('.home').backstretch("assets/img/backgrounds/1.jpg");
-    // $('.section-4-container').backstretch("assets/img/backgrounds/1.jpg");
-    
+	});    
     /*
         Wow
     */
