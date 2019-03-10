@@ -8,9 +8,9 @@ function scroll_to(clicked_link, nav_height) {
 	}
 	if($(window).scrollTop() != scroll_to) {
 		$('html, body').stop().animate({scrollTop: scroll_to}, 1000);
-		if(element_class == '.contato-container'){
-			$("#nome").focus();
-		}
+		// if(element_class == '.contato-container'){
+		// 	$("#nome").focus();
+		// }
 	}
 }
 
