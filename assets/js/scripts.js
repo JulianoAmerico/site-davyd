@@ -14,7 +14,6 @@ function scroll_to(clicked_link, nav_height) {
 	}
 }
 
-
 jQuery(document).ready(function() {
 	
 	/*
@@ -34,3 +33,13 @@ jQuery(document).ready(function() {
     new WOW().init();
 	
 });
+
+function sendMail() {
+    var link = "mailto:me@example.com"
+             + "?cc=" + escape("")
+             + "&subject=" + escape("Assunto cliente")
+             + "&body=" + "Olá,%0D%0A%0D%0A"
+             + document.getElementById('mensagemCliente').value
+             + "%0D%0A%0D%0AAtenciosamente,%0D%0A%0D%0A" + document.getElementById("nome").value + "%0D%0A%0D%0A"
+    window.location.href = link;
+}
